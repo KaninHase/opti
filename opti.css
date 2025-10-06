@@ -1,0 +1,333 @@
+body {
+  background-color: #000;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.container {
+  animation: spin 4s linear infinite;
+  margin: auto;
+  position: relative;
+  width: 95vmin;
+  height: 95vmin;
+}
+
+.circle {
+  border-radius: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: auto;
+  transition: transform 0.5s linear;
+}
+
+.circle-1 {
+  background-color: white;
+  background-image: radial-gradient(black, rgba(0, 0, 0, 0.975));
+  left: 0.046875vmin;
+  width: 1.875vmin;
+  height: 1.875vmin;
+}
+
+.circle-2 {
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.925));
+  left: 0.09375vmin;
+  width: 3.75vmin;
+  height: 3.75vmin;
+}
+
+.circle-3 {
+  background-color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.875));
+  left: 0.140625vmin;
+  width: 5.625vmin;
+  height: 5.625vmin;
+}
+
+.circle-4 {
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.825));
+  left: 0.1875vmin;
+  width: 7.5vmin;
+  height: 7.5vmin;
+}
+
+.circle-5 {
+  background-color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.775));
+  left: 0.234375vmin;
+  width: 9.375vmin;
+  height: 9.375vmin;
+}
+
+.circle-6 {
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.725));
+  left: 0.28125vmin;
+  width: 11.25vmin;
+  height: 11.25vmin;
+}
+
+.circle-7 {
+  background-color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.675));
+  left: 0.328125vmin;
+  width: 13.125vmin;
+  height: 13.125vmin;
+}
+
+.circle-8 {
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.625));
+  left: 0.375vmin;
+  width: 15vmin;
+  height: 15vmin;
+}
+
+.circle-9 {
+  background-color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.575));
+  left: 0.421875vmin;
+  width: 16.875vmin;
+  height: 16.875vmin;
+}
+
+.circle-10 {
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.525));
+  left: 0.46875vmin;
+  width: 18.75vmin;
+  height: 18.75vmin;
+}
+
+.circle-11 {
+  background-color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.475));
+  left: 0.515625vmin;
+  width: 20.625vmin;
+  height: 20.625vmin;
+}
+
+.circle-12 {
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.425));
+  left: 0.5625vmin;
+  width: 22.5vmin;
+  height: 22.5vmin;
+}
+
+.circle-13 {
+  background-color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.375));
+  left: 0.609375vmin;
+  width: 24.375vmin;
+  height: 24.375vmin;
+}
+
+.circle-14 {
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.325));
+  left: 0.65625vmin;
+  width: 26.25vmin;
+  height: 26.25vmin;
+}
+
+.circle-15 {
+  background-color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.275));
+  left: 0.703125vmin;
+  width: 28.125vmin;
+  height: 28.125vmin;
+}
+
+.circle-16 {
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.225));
+  left: 0.75vmin;
+  width: 30vmin;
+  height: 30vmin;
+}
+
+.circle-17 {
+  background-color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.175));
+  left: 0.796875vmin;
+  width: 31.875vmin;
+  height: 31.875vmin;
+}
+
+.circle-18 {
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.125));
+  left: 0.84375vmin;
+  width: 33.75vmin;
+  height: 33.75vmin;
+}
+
+.circle-19 {
+  background-color: white;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.075));
+  left: 0.890625vmin;
+  width: 35.625vmin;
+  height: 35.625vmin;
+}
+
+.circle-20 {
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.025));
+  left: 0.9375vmin;
+  width: 37.5vmin;
+  height: 37.5vmin;
+}
+
+.circle-21 {
+  background-color: white;
+  left: 0.984375vmin;
+  width: 39.375vmin;
+  height: 39.375vmin;
+}
+
+.circle-22 {
+  background-color: black;
+  left: 1.03125vmin;
+  width: 41.25vmin;
+  height: 41.25vmin;
+}
+
+.circle-23 {
+  background-color: white;
+  left: 1.078125vmin;
+  width: 43.125vmin;
+  height: 43.125vmin;
+}
+
+.circle-24 {
+  background-color: black;
+  left: 1.125vmin;
+  width: 45vmin;
+  height: 45vmin;
+}
+
+.circle-25 {
+  background-color: white;
+  left: 1.171875vmin;
+  width: 46.875vmin;
+  height: 46.875vmin;
+}
+
+.circle-26 {
+  background-color: black;
+  left: 1.21875vmin;
+  width: 48.75vmin;
+  height: 48.75vmin;
+}
+
+.circle-27 {
+  background-color: white;
+  left: 1.265625vmin;
+  width: 50.625vmin;
+  height: 50.625vmin;
+}
+
+.circle-28 {
+  background-color: black;
+  left: 1.3125vmin;
+  width: 52.5vmin;
+  height: 52.5vmin;
+}
+
+.circle-29 {
+  background-color: white;
+  left: 1.359375vmin;
+  width: 54.375vmin;
+  height: 54.375vmin;
+}
+
+.circle-30 {
+  background-color: black;
+  left: 1.40625vmin;
+  width: 56.25vmin;
+  height: 56.25vmin;
+}
+
+.circle-31 {
+  background-color: white;
+  left: 1.453125vmin;
+  width: 58.125vmin;
+  height: 58.125vmin;
+}
+
+.circle-32 {
+  background-color: black;
+  left: 1.5vmin;
+  width: 60vmin;
+  height: 60vmin;
+}
+
+.circle-33 {
+  background-color: white;
+  left: 1.546875vmin;
+  width: 61.875vmin;
+  height: 61.875vmin;
+}
+
+.circle-34 {
+  background-color: black;
+  left: 1.59375vmin;
+  width: 63.75vmin;
+  height: 63.75vmin;
+}
+
+.circle-35 {
+  background-color: white;
+  left: 1.640625vmin;
+  width: 65.625vmin;
+  height: 65.625vmin;
+}
+
+.circle-36 {
+  background-color: black;
+  left: 1.6875vmin;
+  width: 67.5vmin;
+  height: 67.5vmin;
+}
+
+.circle-37 {
+  background-color: white;
+  left: 1.734375vmin;
+  width: 69.375vmin;
+  height: 69.375vmin;
+}
+
+.circle-38 {
+  background-color: black;
+  left: 1.78125vmin;
+  width: 71.25vmin;
+  height: 71.25vmin;
+}
+
+.circle-39 {
+  background-color: white;
+  left: 1.828125vmin;
+  width: 73.125vmin;
+  height: 73.125vmin;
+}
+
+.circle-40 {
+  background-color: black;
+  width: 75vmin;
+  height: 75vmin;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
